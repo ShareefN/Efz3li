@@ -27,7 +27,7 @@ class MechanicForm extends Component{
     }
 
     submitEvent(event){
-        alert('Welcome ' + this.state.usernaem);
+        alert('Welcome ' + this.state.username);
         event.preventDefault();
     }
 
